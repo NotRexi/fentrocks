@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+    flex: 1;
+    text-align: center;
+}
+
+section {
+    background-color: #fff;
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.store-item {
+    background-color: #fff;
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.store-item h3 {
+    margin-top: 0;
+}
+
+.store-item button {
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.store-item button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discord-icon {
+    color: #7289da;
+    font-size: 2em;
+    text-decoration: none;
+    margin-bottom: 0.5em;
+}
+
+.discord-icon:hover {
+    color: #5a6fa3;
+}
+
+.discord-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 1em;
+    background-color: #7289da;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 1em;
+}
+
+.discord-button i {
+    margin-right: 0.5em;
+}
+
+.discord-button:hover {
+    background-color: #5a6fa3;
+}
