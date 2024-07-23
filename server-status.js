@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(response => response.json())
         .then(data => {
             const playerCount = data.players.online;
-            document.getElementById("online-players").textContent = `Online Players: ${playerCount}`;
+            document.getElementById("online-players").textContent = `${playerCount} Playing`;
         })
         .catch(error => {
             console.error("Error fetching server data:", error);
